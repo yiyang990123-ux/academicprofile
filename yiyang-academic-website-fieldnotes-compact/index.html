@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="Yiyang Xiao — PhD Candidate in Anthropology at Chinese University of Hong Kong. Research on memory, urban transformations, cultural heritage, digital ethnography, and political economy." name="description"/><title>Yiyang Xiao | Anthropologist</title><style>
+:root{--ink:#1e3437;--muted:#5b6d6e;--accent:#176e6a;--paper:#f9f8f3;--line:#dce3de;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1120px;margin:auto;padding:0 30px}.nav{position:sticky;top:0;background:rgba(249,248,243,.96);border-bottom:1px solid var(--line);z-index:2;backdrop-filter:blur(12px)}.nav .wrap{display:flex;align-items:center;justify-content:space-between;min-height:68px;gap:20px}.brand{font-weight:750;letter-spacing:.02em;color:var(--ink);font-size:18px}.links{display:flex;gap:22px;flex-wrap:wrap;font-size:13px;font-weight:600}.hero{padding:94px 0 78px;border-bottom:1px solid var(--line)}.eyebrow{text-transform:uppercase;letter-spacing:.19em;font-size:12px;color:var(--accent);font-weight:750}.hero h1{font:normal clamp(54px,8vw,100px)/1.04 Georgia,serif;letter-spacing:-.055em;margin:15px 0 25px}.hero p{max-width:760px;font-size:20px;color:#435b5b;line-height:1.7}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:10px 19px;border:1px solid var(--accent);border-radius:3px;font-size:14px;font-weight:650}.btn.primary{background:var(--accent);color:white}.btn:hover{text-decoration:none;opacity:.88}.tagline{margin-top:26px;font-size:13px;color:var(--muted)}section{padding:72px 0;border-bottom:1px solid var(--line)}.section-grid{display:grid;grid-template-columns:240px minmax(0,1fr);gap:42px}h2{font:normal 31px/1.2 Georgia,serif;margin:0 0 20px}h3{font-size:17px;margin:0 0 8px}.section-body>p:first-child{margin-top:0}.muted{color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.chip{border:1px solid #b9d0c8;border-radius:30px;padding:5px 12px;font-size:12px;color:#345a57}.entry{padding:18px 0;border-bottom:1px solid var(--line)}.entry:first-child{padding-top:0}.entry:last-child{border-bottom:0}.meta{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:700}.entry p{margin:6px 0 0}.pubs{counter-reset:pub}.pub{display:grid;grid-template-columns:50px 1fr;gap:14px;padding:17px 0;border-bottom:1px solid var(--line)}.pub:before{counter-increment:pub;content:counter(pubs,decimal-leading-zero);font:normal 17px Georgia,serif;color:#80938b}.pub:last-child{border-bottom:0}.pub strong{font-weight:650}.pub em{color:#45625d}.small{font-size:14px}.footer{padding:42px 0 58px;color:var(--muted);font-size:13px}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:26px}.callout{background:#eaf0e9;padding:25px 28px;border-left:3px solid var(--accent)}@media(max-width:740px){.wrap{padding:0 20px}.nav .wrap{align-items:flex-start;flex-direction:column;padding-top:12px;padding-bottom:12px;gap:5px}.links{gap:13px;font-size:12px}.hero{padding:62px 0}.hero p{font-size:17px}.section-grid,.two-col{grid-template-columns:1fr;gap:16px}section{padding:48px 0}.pub{grid-template-columns:35px 1fr}}
+
+/* Fieldwork-led editorial design */
+:root{--ink:#26352f;--accent:#637052;--paper:#f6f3eb;--line:#dedbd1}
+.hero{padding:0;border:0}.hero-photo{position:relative;height:min(73vh,730px);min-height:480px;overflow:hidden;background:#24342e}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 43%;filter:brightness(.69)}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,25,20,.73),transparent 85%);display:flex;align-items:center}
+.hero-overlay .wrap{width:100%}.hero-overlay .eyebrow{color:#d8dfd1}
+.hero-overlay h1{font-size:clamp(58px,8vw,112px);color:#fff;margin:10px 0 16px}
+.hero-overlay p{color:#f4f2e9;max-width:680px}
+.hero-overlay .btn{border-color:#e4e7dc;color:#fff}.hero-overlay .btn.primary{background:#e8e8dc;color:#23362e}
+.hero-overlay .tagline{color:#e2e6dd}.photo-credit{position:absolute;right:24px;bottom:15px;color:#eee;font-size:12px}
+.photo-story{margin:24px 0 40px;display:grid;grid-template-columns:1.15fr 1fr;gap:36px;align-items:center}
+.photo-story:nth-child(even){grid-template-columns:1fr 1.15fr}
+.photo-story:nth-child(even) img{order:2}
+.photo-story img{width:100%;height:370px;object-fit:cover}
+.photo-story h3{font:normal 30px/1.2 Georgia,serif}
+.photo-story p{color:#53635c}
+.photo-caption{font-size:12px;color:#7b827b;margin-top:8px}
+.fieldwork-intro{max-width:760px;font:normal 25px/1.45 Georgia,serif;margin:0 0 45px}
+.photo-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:28px}
+.photo-strip img{width:100%;height:210px;object-fit:cover}
+@media(max-width:740px){.hero-photo{min-height:540px}.hero-overlay h1{font-size:55px}.photo-story,.photo-story:nth-child(even){display:block}.photo-story img{height:300px}.photo-strip{grid-template-columns:1fr 1fr}.photo-strip img{height:170px}}
+.about-layout{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:35px;align-items:start}.portrait-figure{margin:0}.portrait-figure img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:2px}.portrait-figure figcaption{font-size:12px;color:var(--muted);margin-top:8px}.hero-photo img{object-position:center 38%}.hero-overlay{background:linear-gradient(90deg,rgba(10,25,19,.84),rgba(10,25,19,.3) 70%,rgba(10,25,19,.16))}.hero-overlay .eyebrow{letter-spacing:.13em}.hero-overlay h1{font-size:clamp(54px,7.5vw,105px)}@media(max-width:740px){.about-layout{grid-template-columns:1fr}.portrait-figure{max-width:270px}.hero-overlay .eyebrow{font-size:10px}.hero-photo img{object-position:48% center}}
+
+/* Revised cover: portrait photograph shown uncropped, beside the introduction */
+.hero-photo{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,44%);height:auto;min-height:660px;background:#17362e}
+.hero-photo>img{grid-column:2;grid-row:1;width:100%;height:660px;object-fit:contain;object-position:center;filter:none;background:#17362e}
+.hero-overlay{position:static;grid-column:1;grid-row:1;background:none!important;display:flex;align-items:center;padding:65px max(28px,5vw)}
+.hero-overlay .wrap{width:100%;max-width:690px;margin:0}
+.hero-overlay h1{font-size:clamp(55px,6vw,96px)}
+.hero-overlay p{font-size:20px;line-height:1.6}
+.photo-credit{right:16px;bottom:14px;background:rgba(18,33,27,.6);padding:5px 9px}
+@media(max-width:800px){.hero-photo{display:flex;flex-direction:column;min-height:0}.hero-photo>img{order:1;width:100%;height:480px;object-fit:contain}.hero-overlay{order:2;padding:42px 25px}.photo-credit{top:445px;bottom:auto}.hero-overlay h1{font-size:62px}}
+.photo-strip img.full-building{object-fit:contain;object-position:center;background:#e8e6de}
+
+.journey-section{background:#eae9de;color:#253b34;padding:108px 0 116px;border-top:1px solid #d9d9cb;border-bottom:1px solid #d9d9cb}
+.journey-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(35px,7vw,120px);align-items:start}
+.journey-heading{position:sticky;top:110px}.journey-heading .eyebrow{font-size:11px;letter-spacing:.17em;color:#697b6a}
+.journey-heading h2{font:normal clamp(54px,6.5vw,92px)/1.03 Georgia,serif;letter-spacing:-.045em;margin:30px 0;color:#243e34}
+.journey-q{color:#8a9879}.journey-rule{height:1px;background:#aeb9aa;width:95px;margin:38px 0}
+.journey-pull{font:italic 23px/1.5 Georgia,serif;color:#627365;max-width:330px}
+.journey-copy{padding-top:22px}.journey-copy p{font-size:17px;line-height:1.95;color:#394940;margin:0 0 27px}
+.journey-copy p:first-child:first-letter{float:left;font:normal 70px/.85 Georgia,serif;padding:9px 10px 0 0;color:#617b69}
+.journey-copy .journey-end{font:italic 23px/1.55 Georgia,serif;color:#344f43;border-top:1px solid #b9c4b6;padding-top:27px;margin-top:36px}
+@media(max-width:760px){.journey-section{padding:65px 0}.journey-grid{grid-template-columns:1fr;gap:22px}.journey-heading{position:static}.journey-heading h2{font-size:59px;margin:20px 0}.journey-pull{max-width:none}.journey-copy{padding-top:0}}
+
+/* Editorial revision — a field notebook, not a template */
+:root{--paper:#f4f2ec;--ink:#25312d;--accent:#516354;--line:#d7d8cd}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.7}
+.wrap{max-width:1190px;padding-left:clamp(24px,5vw,76px);padding-right:clamp(24px,5vw,76px)}
+.nav{background:rgba(244,242,236,.97);border-bottom:1px solid #d3d4ca}
+.nav .wrap{min-height:72px}
+.brand{font:normal 20px/1.2 Georgia,serif;letter-spacing:.015em}
+.links{font-weight:400;letter-spacing:.015em;gap:19px}
+.hero-photo{grid-template-columns:minmax(0,1fr) minmax(330px,43%);min-height:610px;background:#23382d}
+.hero-photo>img{height:640px;object-fit:contain;background:#23382d}
+.hero-overlay{padding:60px clamp(24px,5vw,76px)}
+.hero-overlay .wrap{max-width:650px;padding:0}
+.hero-overlay h1{letter-spacing:-.05em;font-size:clamp(58px,7vw,100px)}
+.hero-overlay p{max-width:530px}
+.eyebrow,.meta{font-size:11px;letter-spacing:.13em;font-weight:600}
+section{padding:94px 0}
+.section-grid{grid-template-columns:210px minmax(0,1fr);gap:clamp(38px,6vw,96px)}
+.section-grid>h2{font:normal 34px/1.16 Georgia,serif;letter-spacing:-.02em}
+.section-body{max-width:800px}
+.section-body p,.journey-copy p{max-width:68ch}
+#fieldnotes{padding-top:112px;padding-bottom:110px}
+#fieldnotes .fieldwork-intro{max-width:850px;margin-bottom:85px;font:normal clamp(23px,2.8vw,34px)/1.43 Georgia,serif}
+.photo-story,.photo-story:nth-child(even){display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(38px,7vw,105px);align-items:center;margin:0 0 95px}
+.photo-story:nth-child(even){grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}
+.photo-story:nth-child(even)>img{grid-column:2;grid-row:1}
+.photo-story:nth-child(even)>div{grid-column:1;grid-row:1}
+.photo-story img{display:block;width:100%;height:auto;max-height:590px;object-fit:contain;object-position:center;background:#e6e8df}
+.photo-story h3{font:normal clamp(27px,3vw,40px)/1.17 Georgia,serif;letter-spacing:-.02em;margin:14px 0 20px}
+.photo-story p{max-width:38ch;font-size:16px;line-height:1.85}
+.photo-caption{font-size:11px;letter-spacing:.025em}
+.photo-strip{display:grid;grid-template-columns:1fr .85fr 1.15fr .85fr;gap:12px;align-items:end;margin-top:42px}
+.photo-strip img,.photo-strip img.full-building{height:320px;width:100%;object-fit:contain;object-position:center center;background:#e5e5dc}
+.photo-strip img:nth-child(2){height:260px}
+.photo-strip img:nth-child(3){height:370px}
+.photo-strip img:nth-child(4){height:290px}
+.journey-section{background:#e7e8dd}
+.journey-grid{grid-template-columns:.9fr 1.1fr}
+.journey-heading h2{letter-spacing:-.05em}
+.entry{padding:23px 0}
+.pub{grid-template-columns:40px minmax(0,1fr);gap:17px}
+.pub strong{font-weight:600}
+.chips{gap:8px}
+.chip{border-radius:0;border-color:#c7cfc4}
+.callout{background:transparent;border-left:1px solid #859b87;padding:10px 0 10px 25px}
+.footer{border-top:1px solid var(--line)}
+@media(max-width:850px){.hero-photo{display:flex;flex-direction:column}.hero-photo>img{width:100%;height:480px;order:1}.hero-overlay{order:2;padding:55px 25px}.photo-credit{top:445px;bottom:auto}.section-grid{grid-template-columns:1fr;gap:16px}.photo-story,.photo-story:nth-child(even){grid-template-columns:1fr;gap:18px;margin-bottom:64px}.photo-story:nth-child(even)>img,.photo-story:nth-child(even)>div{grid-column:auto;grid-row:auto}.photo-story:nth-child(even)>img{order:0}.photo-story:nth-child(even)>div{order:1}.photo-story img{max-height:570px}.photo-strip{grid-template-columns:1fr 1fr;gap:12px}.photo-strip img,.photo-strip img.full-building,.photo-strip img:nth-child(2),.photo-strip img:nth-child(3),.photo-strip img:nth-child(4){height:300px}.journey-grid{grid-template-columns:1fr}.journey-heading{position:static}}
+@media(max-width:520px){.photo-strip{grid-template-columns:1fr 1fr}.photo-strip img,.photo-strip img.full-building,.photo-strip img:nth-child(2),.photo-strip img:nth-child(3),.photo-strip img:nth-child(4){height:235px}.hero-photo>img{height:390px}.photo-credit{top:353px}.hero-overlay h1{font-size:57px}#fieldnotes{padding-top:72px}}
+
+/* Justified paragraph text; headings, labels and navigation remain naturally aligned. */
+.section-body p, .journey p, .fieldnotes p, .callout p {text-align:justify;text-justify:inter-word;hyphens:auto;}
+
+/* 2026-11: quiet photographic essay refinement */
+:root{--paper:#f7f5ef;--ink:#28342e;--accent:#65745f;--line:#d8d7cd}
+body{background:var(--paper);color:var(--ink);font-family: 'Helvetica Neue',Arial,sans-serif}
+.nav{box-shadow:none}.nav .wrap{min-height:76px}
+.hero-photo{background:#233a30;grid-template-columns:minmax(0,1.07fr) minmax(0,.93fr)}
+.hero-photo>img{height:680px;width:100%;object-fit:contain;background:#233a30}
+.hero-overlay{padding:70px clamp(32px,6vw,92px)}
+.hero-overlay h1{font-family:Georgia,serif;font-weight:400;letter-spacing:-.055em}
+.hero-overlay p{font-family:Georgia,serif;font-size:clamp(19px,2vw,24px);line-height:1.57}
+section{border-bottom-color:#d8d7cd}
+#fieldnotes{background:#f7f5ef}
+#fieldnotes .eyebrow{color:#7a826e}
+#fieldnotes> .wrap >h2{font-family:Georgia,serif;letter-spacing:-.035em}
+#fieldnotes .fieldwork-intro{font-size:clamp(17px,1.65vw,20px);line-height:1.65;color:#4c5b50;max-width:760px;margin-bottom:58px}
+.photo-story,.photo-story:nth-child(even){gap:clamp(40px,7vw,98px);margin-bottom:100px}
+.photo-story img{width:100%;height:510px;max-height:none;object-fit:contain;background:#eeede6;padding:12px}
+.photo-story h3{font-size:clamp(28px,3vw,38px)}
+.photo-story .meta{color:#71816c}
+.photo-strip{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:stretch;margin-top:28px}
+.photo-strip img,.photo-strip img.full-building,.photo-strip img:nth-child(2),.photo-strip img:nth-child(3),.photo-strip img:nth-child(4){display:block;width:100%;height:300px;object-fit:contain;object-position:center;background:#e8e8df;padding:8px}
+.photo-strip img{transition:transform .35s ease, background .35s ease}
+.photo-strip img:hover{background:#dde3d8;transform:translateY(-3px)}
+.photo-strip-heading{font:italic 22px/1.3 Georgia,serif;color:#5d6b60;margin:16px 0 20px}
+.journey-section{background:#e9eae2}
+.journey-copy p,.section-body p,.photo-story p,.fieldwork-intro,.callout p{text-align:justify;text-justify:inter-word;hyphens:auto}
+.journey-copy p{max-width:none}
+.section-grid>h2{font-family:Georgia,serif}
+.pub{padding:22px 0}
+@media(max-width:850px){.hero-photo{display:flex}.hero-photo>img{height:500px}.photo-story img{height:450px}.photo-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-strip img,.photo-strip img.full-building,.photo-strip img:nth-child(2),.photo-strip img:nth-child(3),.photo-strip img:nth-child(4){height:330px}}
+@media(max-width:520px){.hero-photo>img{height:410px}.photo-story img{height:370px;padding:8px}.photo-strip img,.photo-strip img.full-building,.photo-strip img:nth-child(2),.photo-strip img:nth-child(3),.photo-strip img:nth-child(4){height:230px;padding:5px}.photo-strip{gap:8px}}
+/* Compact fieldnote entries: photographs and captions remain balanced. */
+.photo-story,.photo-story:nth-child(even){grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,62px);margin-bottom:58px}
+.photo-story img{height:330px;max-height:330px;padding:7px}
+.photo-story h3{font-size:clamp(23px,2.1vw,28px);line-height:1.24;margin:10px 0 13px}
+.photo-story p{font-size:14px;line-height:1.72;max-width:46ch}
+.photo-story .meta{font-size:10px}
+.photo-caption{font-size:10px;margin-top:10px}
+@media(max-width:850px){.photo-story,.photo-story:nth-child(even){grid-template-columns:1fr;gap:16px;margin-bottom:50px}.photo-story img{height:300px;max-height:300px}}
+@media(max-width:520px){.photo-story img{height:255px;max-height:255px}.photo-story h3{font-size:24px}}
+</style></head><body>
+<header class="nav"><div class="wrap"><a class="brand" href="#top">YIYANG XIAO</a><nav aria-label="Main navigation" class="links"><a href="#about">About</a><a href="#journey">My Story</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#teaching">Teaching</a><a href="#service">Service</a><a href="#contact">Contact</a></nav></div></header>
+<main id="top"><div class="hero hero-photo"><img alt="Historic architecture framed by dense green foliage in Lushun" src="images/heritage-overgrown.jpg"/><div class="hero-overlay"><div class="wrap"><div class="eyebrow">Anthropology · Heritage · Memory · Nostalgia</div><h1>Yiyang Xiao</h1><p>Studying how people inhabit changing worlds, remember the past, and imagine the future.</p><p style="font-size:16px">PhD Candidate in Anthropology · Chinese University of Hong Kong</p><div class="buttons"><a class="btn primary" href="#fieldnotes">Stories from the field</a><a class="btn" href="#publications">Publications</a></div></div></div><span class="photo-credit">Field photograph · Lushun</span></div>
+<section id="fieldnotes"><div class="wrap"><div class="eyebrow">Visual fieldnotes · Lushun</div><h2 style="font-size:clamp(29px,3.5vw,43px);margin:12px 0 14px">Heritage, memory, and everyday life</h2><p class="fieldwork-intro">Buildings outlast the political orders that produced them. Their meanings continue to change through ordinary life, institutional decisions, and the passage of time.</p>
+<div class="photo-story"><img alt="Historic building with everyday traces of occupation" src="images/residential-heritage.jpg"/><div><div class="meta">01 / Everyday life</div><h3>History is inhabited</h3><p>In Lushun, historic buildings are not simply objects of preservation. They remain part of residential streets and everyday routines. My fieldwork follows the people who live alongside these layered pasts.</p><div class="photo-caption">Field photograph, Lushun</div></div></div>
+<div class="photo-story"><img alt="Historic building under restoration scaffolding" src="images/restoration.jpg"/><div><div class="meta">02 / Heritage and urban change</div><h3>Between waiting and repair</h3><p>Scaffolding, empty rooms, and unfinished plans reveal the uneven temporalities of heritage governance. What gets repaired, what must wait, and who imagines the future of these places?</p><div class="photo-caption">Field photograph, Lushun</div></div></div>
+<div class="photo-story"><img alt="A painted memorial column on an artist's easel" src="images/memorial-painting.jpg"/><div><div class="meta">03 / Memory in public space</div><h3>Monuments and their afterlives</h3><p>Commemorative landscapes are also encountered through leisure, artistic practice, and ordinary movement. Such moments open questions about how collective memory is lived beyond official narratives.</p><div class="photo-caption">Field photograph, Lushun</div></div></div>
+<p class="photo-strip-heading">Fragments of a changing city</p><div class="photo-strip"><img alt="Historic building at a street corner in Lushun" class="full-building" loading="lazy" src="images/street-corner.jpg"/><img alt="Illuminated blossoms on a street" loading="lazy" src="images/spring-street.jpg"/><img alt="Everyday movement beside buildings under repair on a street in Lushun" class="full-building" loading="lazy" src="images/street-life-repair.jpg"/><img alt="Layers of paint and writing on an old wall" loading="lazy" src="images/layered-walls.jpg"/></div>
+</div></section>
+<section id="about"><div class="wrap section-grid"><h2>About</h2><div class="section-body"><div class="about-layout"><div><p>I am a PhD candidate in Anthropology at Chinese University of Hong Kong. My research examines how people make sense of historical change through memory, material landscapes, institutions, and everyday cultural practices. I work across cultural anthropology, heritage and museum studies, urban studies, and digital ethnography.</p><p>My doctoral research draws on long-term ethnographic fieldwork in Lushun, northeastern China, to explore the contemporary lives of colonial pasts. Beyond this work, I study digital platforms and transnational encounters, and I am developing research on ruins, nostalgia, industrial decline, and the social afterlives of economic transformation.</p><p>My theoretical interests include hauntology and past presencing. I combine participant observation and interviews with digital ethnography, visual and textual analysis, and interdisciplinary approaches to culture and social change.</p></div><figure class="portrait-figure"><img alt="Portrait of Yiyang Xiao" loading="lazy" src="images/portrait.jpg"/><figcaption>Yiyang Xiao</figcaption></figure></div><div class="chips"><span class="chip">Social &amp; Cultural Anthropology</span><span class="chip">Memory &amp; Nostalgia</span><span class="chip">Hauntology &amp; Past Presencing</span><span class="chip">Cultural Heritage &amp; Museums</span><span class="chip">Urban Transformation</span><span class="chip">Digital Anthropology</span><span class="chip">Political Economy &amp; Post-socialism</span><span class="chip">Cultural Governance</span><span class="chip">Visual &amp; Sensory Ethnography</span></div></div></div></section>
+<section class="journey-section" id="journey"><div class="wrap journey-grid"><div class="journey-heading"><div class="eyebrow">PERSONAL JOURNEY / THE ROOTS OF MY RESEARCH</div><h2>Where do<br/>we belong<span class="journey-q">?</span></h2><div class="journey-rule"></div><p class="journey-pull">My interest in memory and belonging began long before I became an anthropologist.</p></div><div class="journey-copy"><p>I come from a family of industrial migrants. I grew up in an oilfield family, in an industrial town facing economic decline.</p><p>The oilfield was more than a workplace. For many families around me, it was a community shaped by the <em>danwei</em> (work unit), which connected employment, housing, welfare, and everyday life. Market reforms and the depletion of industrial resources transformed that world. Older generations remembered the collective life they had known, while many of my generation left to study and build careers in larger cities.</p><p>Growing up amid these changes made me attentive to the relationship between place, memory, and belonging. These questions accompanied me from museums and material culture to ethnographic research on colonial heritage, and continue to inform my interests in nostalgia, social transformation, and digital life.</p><p class="journey-end">For me, anthropology is a way to connect personal histories with broader social change.</p></div></div></section>
+<section id="research"><div class="wrap section-grid"><h2>Research</h2><div class="section-body"><div class="entry"><div class="meta">Doctoral research · Ethnography</div><h3>Colonial heritage and its contemporary afterlives</h3><p>Based on long-term fieldwork in Lushun, this project explores how colonial pasts remain active through heritage governance, commemorative practices, urban landscapes, and everyday life. It examines the uneven temporalities of preservation and the futures imagined for historic places.</p></div><div class="entry"><div class="meta">Published research · Digital anthropology</div><h3>Platform migration and transnational digital encounters</h3><p>My research on TikTok users' migration to Xiaohongshu investigates platform-mediated encounters, cultural negotiation, and changing forms of digital belonging. It brings digital ethnography into dialogue with questions of mobility and social boundaries.</p></div><div class="entry"><div class="meta">Collaborative research · Memory politics</div><h3>Disaster memory and cultural governance</h3><p>Collaborative work on the transformation of disaster memoryscapes in China examines how public memory is shaped through state narratives, local mediation, and civic participation.</p></div><div class="entry"><div class="meta">Emerging research · Work in progress</div><h3>Ruins, nostalgia, and post-socialist transformations</h3><p>My emerging work considers urban exploration and the cultural meanings of abandoned spaces in contemporary China, alongside memories of industrial work, socialist institutions, and economic change. These interests connect questions of place and materiality to nostalgia, political economy, and imagined futures.</p></div></div></div></section>
+<section id="publications"><div class="wrap section-grid"><h2>Selected<br/>publications</h2><div class="section-body pubs"><div class="pub"><div><strong><a href="https://doi.org/10.1177/14614448251368890" rel="noopener noreferrer" target="_blank">“No longer our place”: TikTok refugees and the politics of digital migration to Xiaohongshu</a></strong><br/><span class="small">Xiao, Y. &amp; Zhang, J. (2026). <em>New Media &amp; Society</em>, 28(9).</span><br/><a class="small" href="https://doi.org/10.1177/14614448251368890" rel="noopener noreferrer" target="_blank">DOI: 10.1177/14614448251368890 ↗</a></div></div><div class="pub"><div><strong><a href="https://doi.org/10.1080/13527258.2026.2654205" rel="noopener noreferrer" target="_blank">Multiple voices, shared space: the Lushun Russo-Japanese Prison as a transnational difficult heritage</a></strong><br/><span class="small">Xiao, Y., Bu, F. &amp; Lam, W. (2026). <em>International Journal of Heritage Studies</em>, 32(7), 1027–1048. First and corresponding author.</span><br/><a class="small" href="https://doi.org/10.1080/13527258.2026.2654205" rel="noopener noreferrer" target="_blank">DOI: 10.1080/13527258.2026.2654205 ↗</a></div></div><div class="pub"><div><strong><a href="https://doi.org/10.1080/10286632.2026.2662472" rel="noopener noreferrer" target="_blank">‘The more it changes’: state scripting, local mediation, and civic voices in the transformation of China’s disaster memoryscapes</a></strong><br/><span class="small">Bu, F., Xiao, Y. &amp; Wang, S. (2026). <em>International Journal of Cultural Policy</em>.</span><br/><a class="small" href="https://doi.org/10.1080/10286632.2026.2662472" rel="noopener noreferrer" target="_blank">DOI: 10.1080/10286632.2026.2662472 ↗</a></div></div><div class="pub"><div><strong><a href="https://doi.org/10.4324/9781003692348-13" rel="noopener noreferrer" target="_blank">Between empire and nation: Negotiating colonial heritage in China’s borderland city, Dalian</a></strong><br/><span class="small">Xiao, Y. (2026). In <em>Chinese Borderlands in Transition: Mobility, Penetration, and Transformation</em>. Routledge.</span><br/><a class="small" href="https://doi.org/10.4324/9781003692348-13" rel="noopener noreferrer" target="_blank">DOI: 10.4324/9781003692348-13 ↗</a></div></div><div class="pub"><div><strong><a href="https://doi.org/10.1007/978-3-030-61493-5_123-1" rel="noopener noreferrer" target="_blank">Heritagization of the Colonial Period in Dalian</a></strong><br/><span class="small">Xiao, Y. (2025). <em>The Palgrave Encyclopedia of Cultural Heritage and Conflict</em>.</span><br/><a class="small" href="https://doi.org/10.1007/978-3-030-61493-5_123-1" rel="noopener noreferrer" target="_blank">DOI: 10.1007/978-3-030-61493-5_123-1 ↗</a></div></div><div class="pub"><div><strong><a href="https://doi.org/10.1007/978-3-030-61493-5_124-1" rel="noopener noreferrer" target="_blank">Dark Heritage</a></strong><br/><span class="small">Xiao, Y. (2025). <em>The Palgrave Encyclopedia of Cultural Heritage and Conflict</em>.</span><br/><a class="small" href="https://doi.org/10.1007/978-3-030-61493-5_124-1" rel="noopener noreferrer" target="_blank">DOI: 10.1007/978-3-030-61493-5_124-1 ↗</a></div></div><div class="pub"><div><strong>香港英占时期建筑遗产的活化利用——以中环大馆建筑群为例</strong><br/><span class="small">肖懿洋（2025）。《遗产》。</span></div></div><div class="pub"><div><strong>表征过去：后现代世界的博物馆和遗产</strong><br/><span class="small">肖懿洋（2024）。载《20世纪西方博物馆研究著作指南》。南京：江苏凤凰文艺出版社。</span></div></div></div></div></section>
+<section id="teaching"><div class="wrap section-grid"><h2>Teaching &amp;<br/>training</h2><div class="section-body"><div class="entry"><div class="meta">2022–present · Chinese University of Hong Kong</div><h3>Teaching Assistant, Department of Anthropology</h3><p>Led undergraduate tutorials, guided student discussions and presentations, assessed coursework, and supported course delivery.</p></div><div class="entry"><div class="meta">2025–2026</div><h3>Visiting Doctoral Researcher · Humboldt University of Berlin</h3><p>Academic host: Professor Sharon Macdonald.</p></div><div class="entry"><div class="meta">Education</div><p><strong>PhD Candidate, Anthropology</strong> — Chinese University of Hong Kong (2022–present)<br/><strong>MA, Cultural Heritage Studies (Distinction)</strong> — University College London (2020–2021)<br/><strong>BA, Archaeology and Museum Studies</strong> — Nankai University (2016–2020)</p></div></div></div></section>
+<section id="service"><div class="wrap section-grid"><h2>Academic<br/>engagement</h2><div class="section-body"><div class="entry"><h3>Association of Critical Heritage Studies</h3><p>Member of the Early Career Researchers Network coordination team (2024–present), contributing to workshops and preparations for an <em>International Journal of Heritage Studies</em> special issue.</p></div><div class="entry"><h3>Conferences &amp; invited talks</h3><p>Presentations at the Cambridge Heritage Symposium (2026), Association for Asian Studies (2026), American Anthropological Association (2025), and Memory Studies Association (2025).</p><p><strong>Invited talks</strong><br/>University of Trier · Education University of Hong Kong · Chinese University of Hong Kong.</p></div><div class="entry"><h3>Heritage practice &amp; public scholarship</h3><p>Previous research roles at ICOMOS China and the Centre for Cultural Heritage Studies at Southern University of Science and Technology. Public-facing communication on anthropology and cultural heritage through Xiaohongshu.</p></div></div></div></section>
+<section id="contact"><div class="wrap section-grid"><h2>Contact</h2><div class="section-body"><div class="callout"><h3>Research collaborations, talks, and academic enquiries</h3><p><a href="mailto:yiyangxiao@link.cuhk.edu.hk">yiyangxiao@link.cuhk.edu.hk</a></p><p class="small muted">Department of Anthropology · Chinese University of Hong Kong</p></div></div></div></section></main><footer class="footer"><div class="wrap">© <span id="year">2026</span> Yiyang Xiao · Built as a lightweight, accessible academic website.</div></footer><script>document.getElementById('year').textContent=new Date().getFullYear()</script></body></html>
